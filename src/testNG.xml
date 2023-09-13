@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="Parameters_in_xml">  
+  <test name="flipkart_login"> 
+         
+
+         <parameter name="env" value="SIT"/> 
+         <parameter name="browser" value="chrome"/> 
+         <parameter name="url"     value="https://www.flipkart.com/"/>
+         <parameter name="emailid" value="amit@gmail.com"/>
+
+
+    <classes>  
+      <class name="com.TestNgBasics.Parameters_xml"/>  
+    </classes>  
+
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->  
